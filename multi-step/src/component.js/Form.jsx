@@ -1,4 +1,8 @@
+import { useState } from "react"
+
 export default function Form(){
+
+    const [page, setPage] = useState(0);
 
     return(
         <div>
